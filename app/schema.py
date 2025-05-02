@@ -7,3 +7,7 @@ class PredictionInput(BaseModel):
     elevation: float
     slope: float
     lithology: int
+
+class Coordinates(BaseModel):
+    lat: float
+    lon: float
